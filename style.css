@@ -1,0 +1,183 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-color:rgb(232, 232, 232) ;
+    color: #3f3f3f;
+    text-align: center;
+   margin: auto;
+   padding: 0;
+}
+
+.main-logo {
+    width: 150px;
+    padding-top: 10px;
+}
+
+.nav-bar {
+    background-color: #005385;
+}
+
+/*NAV BAR SECTION*/
+.nav-bar a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    display: inline-block;
+}
+
+.nav-bar ul {
+    margin: 0;
+    padding: 0;
+}
+
+.nav-bar li {
+    display: inline;
+}
+
+.full-image {
+    width: 100%;
+    /*visibility: hidden;*/
+}
+
+.nav-bar a:hover {
+    background-color: rgba(255, 255, 255, 30%);
+    font-weight: bolder;
+}
+
+.white-section {
+    background-color: white;
+    margin: 0;
+    padding: 10px 10%;
+
+    /*padding-top: 10px;
+    padding-right: 10%;
+    padding-bottom: 10px;
+    padding-left: 10%;
+    */
+}
+
+.section-header {
+    color: #005385;
+}
+
+.content-section {
+    margin: 1em;
+}
+
+.course-item-image {
+    width: 270px;
+}
+
+.course-item {
+    border: 1px solid #005385;
+    width: 300px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.course-item-header {
+    font-weight: bold;
+    display: block;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.course-item-contents {
+    padding: 10px;
+}
+
+.courses {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.main-footer {
+    /*background-image: url(../images/logowhite.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;*/
+    background-color: #005385;
+    padding: 4px 30px;
+}
+
+.main-footer-container {
+    display: flex;
+    align-items: center;
+}
+
+.main-footer-container ul {
+    flex-grow: 1;
+    align-items: end;
+}
+
+.footer-text {
+    color: white;
+    font-weight: normal;
+}
+
+.footer-nav li {
+    padding: 0;
+}
+
+.footer-nav img {
+    width: 30px;
+ }
+
+.position {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background-color: rgb(232, 232, 232);
+}
+
+.float {
+    float: right;
+    width: 340px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+.pictures {
+    width: 340px;
+    padding: 20px;
+}
+
+.left-pictures {
+    float: left;
+}
+
+.clear {
+    clear: right;
+}
+
+.overflow {
+    width:  100%;
+    height: 200px;
+    background-color: white;
+    overflow: auto;
+}
+
+/*.blue {
+    background-color: #8ec4d0;
+    margin-bottom:  15px;
+    width: 120px;
+    height: 120px;
+    color: #fff;
+    position: relative;
+    z-index: 3;
+}
+
+.red {
+    background-color: #630f16;
+    margin-top: -50px;
+    position: relative;
+    width: 120px;
+    height: 120px;
+    color: #fff;
+    margin-left: 50px;
+    z-index: 2;
+}*/
